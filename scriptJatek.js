@@ -25,7 +25,7 @@ $(function () {
         kivalasztottKartyaTomb.push(event.detail);
 
         //akkor van két kártya felforditva ha tömb hossza 2
-        if (kivalasztottKartyaTomb.length = 2) {
+        if (kivalasztottKartyaTomb.length == 2) {
             if (kivalasztottKartyaTomb[0].faljnev == kivalasztottKartyaTomb[1].faljnev) {
                 console.log("egyforma");
                 //eltüntetni a kártyákat
