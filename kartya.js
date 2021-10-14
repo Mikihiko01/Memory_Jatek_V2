@@ -25,6 +25,7 @@ class Kartya {
     atvalt(){
         this.allapot=!this.allapot;
         this.setLap();
+        
     }
 
     setLap() {
